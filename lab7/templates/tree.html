@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Дерево</title>
+</head>
+<body>
+    <form action='http://127.0.0.1:5000/' method=get>
+        <h1 align="center">Дерево решений</h1>
+        <h2 align="center">Зависимость образования от возраста и трат на вино</h2>
+        <h3 style="padding-left: 2%;  font-family: 'Arial'">X — возраст и траты на вино</h3>
+        <h3 style="padding-left: 2%;  font-family: 'Arial'">Y — образование</h3>
+        <h3 style="padding-left: 2%;  font-family: 'Arial'">ENTROPY — это мера беспорядка. Энтропия измеряется в диапазоне от 0 до 1.</h3>
+        <h3 style="padding-left: 2%;  font-family: 'Arial'">Но в данном случае 5 классов, поэтому в этом наборе данных значение энтропии может оказаться больше 1.</h3>
+        <h3 style="padding-left: 2%;  font-family: 'Arial'">В любом случае это означает крайней высокий уровень беспорядка. </h3>
+        <h3 style="padding-left: 2%;  font-family: 'Arial'">SAMPLES — количество подходящих значений.</h3>
+        <h3 style="padding-left: 2%;  font-family: 'Arial'">VALUE = [Graduation, PhD, Master, Basic, 2n Cycle] (вместо класса число, соответствующее ему)</h3>
+        <img src="data:image/png;base64, {{encoded}}">
+        <input type=submit value='На главную'>
+    </form>
+</body>
+</html>
